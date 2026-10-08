@@ -60,9 +60,15 @@ npx skills add tanakaisworking/engineering-research --skill engineering-research
 npx skills add tanakaisworking/engineering-research --skill engineering-research --agent claude-code
 ```
 
-## 使用例
+## 使い方
 
-導入したエージェントに、対象のプロジェクトや調査したい条件と一緒に依頼します。
+**導入後は、普段どおりAIに開発や技術調査を依頼してください。毎回 `$engineering-research` を指定する必要はありません。**
+
+スキルの自動選択に対応したエージェントでは、依頼内容に応じてAIがこのスキルを選んで使います。作者の利用環境でも、スキル名を指定せずに技術調査で使われることが多くあります。これは実際の使用感で、自動利用の頻度はエージェント・設定・依頼内容によって変わります。
+
+### 明示的に使いたい場合（任意）
+
+このスキルを使うよう指定したいときは、次のようにスキル名を添えて依頼できます。以下は任意の呼び出し例です。
 
 ```text
 $engineering-research
